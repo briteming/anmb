@@ -57,7 +57,7 @@ const StyledImage = ({ src, alt, ...props }: ImageProps) => {
                 alt={alt || 'Image'}
                 unoptimized
                 onLoad={() => setIsLoaded(true)}
-                sizes="(max-width: 800px) 100vw, 800px"
+                sizes="(max-width: 1600px) 200vw, 1600px"
                 width={1}
                 height={1}
                 {...props}
